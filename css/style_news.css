@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+body{
+	margin: 0;
+	padding:0;
+	background-size: 100%;
+	font-family: sans-serif;
+
+}
+
+
+h1.hh {
+    letter-spacing: -.75px;
+    font-size: 3.0517578125em;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    margin-top: .8em;
+    margin-bottom: .125em;	
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+p.h {
+    text-align: center;
+    font-size: 1.5625em;
+    margin-top: 0;
+    margin-bottom: .512em;
+}
+.news{
+  
+    background-color: #f9f6ef;
+}
+.box-container {
+	padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 38px;
+    text-align:center;
+    background:#f9f6ef;
+}
+
+.box{
+	display:block;
+	background-color: #f5f5f6;
+	width:300px;
+	height:400px;
+    margin:auto auto;
+	box-shadow:0 5px 5px rgba(0,0,0,.2);
+transition: .25s;
+transition: box-shadow .3s;
+border-radius:20px;
+}
+.date{
+    position: relative;
+    background-color: #2f2424;
+    box-shadow:0 5px 5px rgba(0,0,0,.2);
+    color: #fff;
+    width: 3.8888888889em;
+    height: 4.8888888889em;
+    line-height: 1.1;
+    font-weight: 400;
+    padding-top:20px;
+    margin-bottom: -1.3888888889em;
+    margin-left: 5px;
+    top: -1.9444444444em;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border-radius:10px;
+}
+.content{
+	display:block;
+}
+.img_box{
+	display:block;
+	width:300px;
+	height:200px;
+	overflow:hidden;
+cursor: pointer;
+}
+.box img{
+	transition: .25s;
+	width: 100%;
+	border-radius:20px;
+}
+.box-img{
+	width:300px;
+	height:200px;
+}
+h3.describtion {
+    padding-left:5px;
+     padding-top:35px;
+}
+h3.describtion a {
+    text-decoration: none;
+    color: #000;
+    transition: color .25s ease-in;
+    margin-top:0px;
+    font-size: 30px;
+
+}
+p.brief_title{
+	color: #820000;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.2;
+    margin-bottom:0px;
+    padding-left:5px;
+}
+p.time{
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+.brief{
+	padding:auto;
+padding-left:5px;
+}
+.box:hover .box-img{
+	transform: scale(1.1);
+} 
+.box:hover h3.describtion a {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+.box:hover {
+    transform: scale(1.005);
+    box-shadow:0 6px 7px rgba(0,0,0,.5);
+}

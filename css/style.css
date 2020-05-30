@@ -1,0 +1,218 @@
+    body{
+	margin: 0;
+	padding:0;
+	background-size: 100%;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+}
+
+nav .logo img{
+	float: left;	 
+	height: 100px;
+	padding-top: 3px ;
+	transition: 0.5s;
+	padding-left:10px;  
+
+}
+nav.black .logo img{
+	height: 100px;
+	background-color: rgba(0,0,0,0.2);
+
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+      z-index: 100;
+}
+
+nav ul {
+      line-height: 20px;
+      list-style: none;
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 0.3s;
+
+  }
+      
+nav.black ul {
+     background: rgba(0,0,0,0.2);
+}
+
+nav ul li {
+	text-decoration: none;
+      display: inline-block;	
+      padding: 15px 24px;
+
+}
+nav ul li a {
+       color: #fff;
+      font-size: 20px;	
+      word-spacing: 20px;
+      display: block;
+}
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: rgba(0,0,0,0.2);
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+nav ul li a.active,
+nav ul li a:hover{
+	color:#fffff4;
+	text-decoration: none;
+	 font-size: 23px;	
+      word-spacing: 20px;
+	border-radius: 5px;
+
+}
+nav ul ul{
+        
+      position: absolute;
+      right: 280px;
+      display: none;
+    }
+    nav ul li:hover ul{
+        display: block;	
+
+
+    }
+    nav ul ul li{
+    	 display: block;
+    	 
+    	 text-align:center;
+    }
+
+    
+
+
+
+#particles-js{
+	
+	background-size: cover;
+	width: 100%;
+	height:100vh;
+	background-attachment: fixed;
+	position: relative;
+	
+}
+.aaclogo{
+	position: absolute;
+	top: 60%;
+	left: 41%;
+
+}
+.aaclogo img{
+	height: 135px;
+	opacity: 80%;
+}
+.drone{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,50%);
+	animation: fly 2s ease-in-out infinite;
+}
+.drone img{
+	height: 180px;	
+}
+@keyframes fly{
+	0%{
+		transform: translate(-50%,-46%);
+	}
+	50%{
+		transform: translate(-50%,-54%);
+	}
+	100%{
+		transform: translate(-50%,-46%);
+	}
+}
+h1{
+	text-align: center;
+}
+
+.ribbon {
+ font-size: 16px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+ width: 50%;
+    
+ position: relative;
+ background: #ba89b6;
+ color: #fff;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #986794;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #804f7c transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+.about-panel{
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/wallpapers/sky3.jpg);
+	background-size: cover;	
+	background-position: center;
+	width: 100%;
+	height:100vh;
+
+	}
+.title{
+	font-size: 80px;
+	font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    word-spacing: 18px;
+    letter-spacing: 5px;	
+    font-family: Advent pro;
+}
+.col-md-4{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 25px;
+}
+
+
+
+
+
