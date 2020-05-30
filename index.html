@@ -40,7 +40,84 @@
 
   <body>
     <!--Navigation bar-->
+    <script>
+      // Menu-toggle button
 
+      $(document).ready(function () {
+        $(".menu-icon").on("click", function () {
+          $("nav ul").toggleClass("showing");
+        });
+        $(".menu-icon").click(function () {
+          $(".drone").toggle();
+        });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function () {
+        if ($(window).scrollTop()) {
+          $("nav").addClass("black");
+        } else {
+          $("nav").removeClass("black");
+        }
+      });
+
+      /* When the user scrolls down, hide the drone. */
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+          $(".drone").hide();
+        } else {
+          $(".drone").show();
+        }
+      });
+
+      $(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 490) {
+            $(".logo img")
+              .attr("src", "./img/icons/logo.png")
+              .css("width", "190px;");
+            $(".black").css("background", "rgb(33,38,3b)");
+            $("nav.black .logo img").css("background", "rgba(0,0,0,0.2)");
+          } else {
+            $(".logo img").attr("src", "./img/icons/GRIET_Logo.png");
+            $(".black").css("background", "rgba(0, 0, 0, 0.2)");
+            $("nav.black .logo img").css("background", "rgba(0,0,0,0)");
+          }
+        });
+      });
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
     <nav>
       <div class="menu-icon">
         <i class="fa fa-bars fa-2x"></i>
@@ -895,9 +972,8 @@
       </div>
     </footer>
 
-    <script type="text/javascript"></script>
+    <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="particles.min.js"></script>
     <script type="text/javascript" src="particles.js"></script>
-    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
