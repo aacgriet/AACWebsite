@@ -1,129 +1,139 @@
-
-body{
-    margin: 0;
-    padding:0;
-    background-size: 100%;
-    font-family: sans-serif;
-    color: #231f20;
-    background: #ffffff;
+body {
+  margin: 0;
+  padding: 0;
+  background-size: 100%;
+  font-family: sans-serif;
+  color: #231f20;
+  background: #ffffff;
 }
-.heading{
-
-    margin:30px;
-    margin-bottom:30px;
-    margin-top:150px;
+li {
+  font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
 }
-
-.time{
-    font-size: 1.0625em;
-    line-height: 1.58823529em;
-        display: block;
-    color: #820000;
-    text-transform: uppercase;
+.heading {
+  margin: 30px;
+  margin-bottom: 30px;
+  margin-top: 150px;
 }
 
-h1{
-    text-align:left;
-    font-size: 2.875em;
-    line-height: 1.13043478em;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 12px;
-        color: #414141;
-    display: block;
+.time {
+  font-size: 1.0625em;
+  line-height: 1.58823529em;
+  display: block;
+  color: #820000;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: left;
+  font-size: 2.875em;
+  line-height: 1.13043478em;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #414141;
+  display: block;
 }
 
 p.head_brief {
-    font-size: 1.125em;
-    font-style: italic;
-    font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
+  font-size: 1.125em;
+  font-style: italic;
+  font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
 }
-.name{
-    margin-top:5px;
-    font-size: 1.0625em;
-    line-height: 1.58823529em;
-        display: block;
-    color: #820000;
-    text-transform: uppercase;
-}
-
-
-.icons a:after{
-    display: block;
+.name {
+  margin-top: 5px;
+  font-size: 1.0625em;
+  line-height: 1.58823529em;
+  display: block;
+  color: #820000;
+  text-transform: uppercase;
 }
 
-.description{
-    display:block;
-margin-left:100px; 
-    width:90%;
-    margin-right:10px;
-    padding-right:10px;
-
-}
-.j{
-    display:inline-block;
-    float:left;
-}
-.detail_des_h{
-        font-size: 1.625em;
-    line-height: 1.23076923em;
-        margin-top: 1.25em;
-    margin-bottom: 0.5em;
-    font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
-    font-weight: 700;
-    line-height: 1.25;
-        background-color: transparent;
-    color: #a51c30;
-}
-.detail_des_p{
-    font-size: 1em;
-    color: black;
-    line-height: 1.4375em;
-    padding-right:30px;
-    font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
-    text-align: justify;
+.icons a:after {
+  display: block;
 }
 
+.description {
+  display: block;
+  margin-left: 100px;
+  width: 90%;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.j {
+  display: inline-block;
+  /* float: left; */
+}
+.detail_des_h {
+  display: block;
+  font-size: 1.625em;
+  line-height: 1.23076923em;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
+  font-weight: 700;
+  line-height: 1.25;
+  background-color: transparent;
+  color: #a51c30;
+}
+.detail_des_p {
+  font-size: 1em;
+  color: black;
+  line-height: 1.4375em;
+  padding-right: 30px;
+  font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
+  text-align: justify;
+}
 
-.img1{
-    float:right;
+.img1 {
+  float: right;
 }
-.applications{
-	margin-left:20px;
-	width:60%;
+.applications {
+  margin-left: 20px;
+  width: 60%;
 }
-.names{
-	width:30%;.
+.names {
+  width: 30%;
 }
-h3{
-	margin-bottom:-11px;
+h3 {
+  margin-bottom: -11px;
 }
-p.time1{
-	margin-bottom:-7px;
+p.time1 {
+  margin-bottom: -7px;
 }
-p.sub{
-	margin-top:0px;
+p.sub {
+  margin-top: 0px;
 }
-.down{
-    display:block;
-    width:100%;
-    padding:20px;
-    margin:bottom:100px;
+.down {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 100px;
 }
 .description:after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
-@media (max-width : 768px)
-{
-.applications{
-    width : 100%;
-    margin-left : 0px;
-    
+@media (max-width: 768px) {
+  .applications {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .names {
+    width: 100%;
+  }
 }
-.names{
-    width : 100%;
-    
+
+/* recent updates to the code */
+
+.underline {
+  height: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background-color: #c45667;
+  width: 100%;
 }
+
+.p_title {
+  font-size: 1.2rem;
 }
