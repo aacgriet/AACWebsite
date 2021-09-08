@@ -70,7 +70,7 @@ p.head_brief {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.25;
   background-color: transparent;
   color: #a51c30;
@@ -127,9 +127,10 @@ p.sub {
 /* recent updates to the code */
 
 .underline {
-  height: 0.5rem;
+  height: 0.4rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
+
   background-color: #c45667;
   width: 100%;
 }
