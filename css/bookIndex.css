@@ -1,0 +1,28 @@
+.book-index {
+  display: flex;
+  min-height: 90vh;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding: 1rem 0rem 5rem 0rem;
+  width: 90%;
+  margin: auto;
+}
+
+.book-title {
+  padding: 2rem 0rem 1rem 0rem;
+  color: black;
+}
+
+.book {
+  flex: 1 1 20rem;
+}
+
+.book-img {
+  width: 70%;
+  height: 60%;
+  object-fit: fill;
+  border-radius: 1rem;
+}
