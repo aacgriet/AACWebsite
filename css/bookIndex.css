@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-
+  background-color: aqua;
   padding: 1rem 0rem 5rem 0rem;
   width: 90%;
   margin: auto;
@@ -20,9 +20,15 @@
   flex: 1 1 20rem;
 }
 
-.book-img {
+.book-img-iot {
   width: 70%;
   height: 60%;
+  object-fit: fill;
+  border-radius: 1rem;
+}
+.book-img-ml {
+  width: 77%;
+  height: 10%;
   object-fit: fill;
   border-radius: 1rem;
 }
