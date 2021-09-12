@@ -31,20 +31,22 @@ h3 {
   position: relative;
   width: 100%;
   height: 100%;
-  top: 50%;
+  /*top: 20%; *//*changes are 50%
   left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #ffffff;
-  background-image: linear-gradient(#ffffff 50%, #ffffff 50%, #f0f3fc 50%);
-  box-shadow: 0px 12px 39px -19px rgba(0, 0, 0, 0.75);
+  transform: translate(-50%, -50%);*/
+  /*background-color: #ffffff;
+  background-image: linear-gradient(#ffffff 50%, #ffffff 50%, #f0f3fc 50%);changes made here
+  box-shadow: 0px 12px 39px -19px rgba(0, 0, 0, 0.75);*/
+  color: white;
   overflow: hidden;
 }
 .carousel-wrapper .carousel {
   position: absolute;
-  top: 50%;
-  transform: translateY(-30%);
+  /*top: 50%;
+  transform: translateY(-30%);*/
   width: 100%;
   height: auto;
+  margin-top: 100px;/*changed*/
 }
 .carousel-wrapper .carousel .carousel-cell {
   margin-bottom: 1.5rem !important;
@@ -53,7 +55,7 @@ h3 {
   padding-right: 15px;
   padding-left: 15px;
   padding: 10px;
-  background-color: #f4f5f6;
+  /*background-color: #f4f5f6;*//*changes are made herer*/
   width: 40%;
   height: auto;
   min-width: 120px;
@@ -148,7 +150,11 @@ h3 {
   border-top-left-radius: 0.25rem;
   -webkit-border-top-right-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-  background-color: #33b5e5 !important;
+ /* background-color: #33b5e5 !important;//chage has been made;*/
+ background: #0f0c29;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
 }
 .img {
   -webkit-border-radius: 50%;
