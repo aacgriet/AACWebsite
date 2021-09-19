@@ -1,0 +1,46 @@
+/* Alumni intro  */
+.alumni-intro {
+  min-height: 28.7vh;
+  margin-bottom: 2rem;
+}
+
+.underline {
+  height: 0.4rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background-color: #c45667;
+  width: 10%;
+}
+.alumni-head {
+  width: 85%;
+  margin: auto;
+  padding-top: 5rem;
+}
+
+/* .alumni-head-image img {
+  width: 24rem;
+  height: 16.7rem;
+  object-fit: cover;
+} */
+
+/* Alumni body */
+
+.alumni-body {
+  width: 85%;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.alumni-profile {
+  padding-bottom: 3rem;
+  display: flex;
+}
+.alumni-profile-content {
+  padding-left: 0.5rem;
+}
+
+.alumni-profile-image img {
+  width: 13rem;
+  height: 12.063rem;
+  object-fit: cover;
+}
