@@ -14,16 +14,16 @@ footer {
 .footer-distributed {
   /*background-color: #33b5e5;*/
   /*background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);*/
-  background: #c33764; /* fallback for old browsers */
+  background: #33B5E5; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to left,
-    #1d2671,
-    #c33764
+    #33B5E5,
+    #33B5E5
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to left,
-    #1d2671,
-    #c33764
+    #33B5E5,
+    #33B5E5
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   box-sizing: border-box;
@@ -100,12 +100,22 @@ footer {
   line-height: 42px;
   margin: 10px 15px;
   vertical-align: middle;
+  border-radius: 50%;
+  transition:0.4s;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5)
+  
 }
 
 .footer-distributed .footer-center i.fa-envelope {
   font-size: 17px;
   line-height: 38px;
 }
+
+.footer-distributed .footer-center i.fa-phone {
+  font-size: 17px;
+  line-height: 38px;
+}
+
 
 .footer-distributed .footer-center p {
   display: inline-block;
@@ -152,6 +162,13 @@ footer {
   margin-top: 25px;
 }
 
+
+
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
 .footer-distributed .footer-icons a {
   display: inline-block;
   width: 35px;
@@ -159,14 +176,18 @@ footer {
   cursor: pointer;
   background-color: #33383b;
   border-radius: 2px;
-
   font-size: 20px;
-  color: #ffffff;
+  color: #fdfcfc;
   text-align: center;
   line-height: 35px;
-
-  margin-right: 3px;
+  margin-right: 15px;
   margin-bottom: 5px;
+  border-radius: 50%;
+  transition:0.4s;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+.footer-distributed .footer-icons a:hover{
+  transform:translate(0,-10px);
 }
 
 /* Here is the code for Responsive Footer */
