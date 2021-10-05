@@ -30,7 +30,7 @@ footer {
   width: 100%;
   text-align: -webkit-center;
   font: bold 16px sans-serif;
-  padding: 50px 50px 60px 50px;
+  padding: 30px 30px 30px 30px;
   margin-top: 0px;
 }
 .footer-distributed .footer-left,
@@ -118,7 +118,7 @@ footer {
 
 
 .footer-distributed .footer-center p {
-  display:grid;
+  display: grid;
   color: #ffffff;
   vertical-align: ;
   margin: 0;
