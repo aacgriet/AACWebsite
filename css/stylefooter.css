@@ -118,9 +118,9 @@ footer {
 
 
 .footer-distributed .footer-center p {
-  display: inline-block;
+  display:grid;
   color: #ffffff;
-  vertical-align: middle;
+  vertical-align: ;
   margin: 0;
 }
 
