@@ -16,9 +16,12 @@
     <link rel="stylesheet" type="text/css" href="./css/AAC_testmonials.css" />
     <link rel="stylesheet" type="text/css" href="./css/style_news.css" />
     <link rel="stylesheet" type="text/css" href="./css/stylefooter.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -45,13 +48,13 @@
       src="https://www.googletagmanager.com/gtag/js?id=G-XE3BY8SGMH"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
-      gtag('js', new Date())
+      gtag('js', new Date());
 
-      gtag('config', 'G-XE3BY8SGMH')
+      gtag('config', 'G-XE3BY8SGMH');
     </script>
   </head>
 
@@ -241,7 +244,7 @@
           </div>
           <div class="box">
             <div class="img_box">
-              <img class="box-img" src="./img/news_events/freshers2020.jpeg" />
+              <img class="box-img" src="./img/news_events/MockTest.png" />
             </div>
             <div class="date">Dec<br />8</div>
             <div class="content">
@@ -255,7 +258,7 @@
           </div>
           <div class="box">
             <div class="img_box">
-              <img class="box-img" src="./img/news_events/freshers2020.jpeg" />
+              <img class="box-img" src="./img/news_events/WelcomeGuys.png" />
             </div>
             <div class="date">Dec<br />4</div>
             <div class="content">
@@ -339,7 +342,10 @@
           </div>
           <div class="box">
             <div class="img_box">
-              <img class="box-img" src="./img/news_events/Research Paper 12th june.png" />
+              <img
+                class="box-img"
+                src="./img/news_events/Research Paper 12th june.png"
+              />
             </div>
             <div class="date">June<br />12</div>
             <div class="content">
@@ -795,7 +801,7 @@
     <div
       class="about-panel"
       id="about-panel"
-      style="font-family:Montserrat; font-weight: 600; letter-spacing: 2px"
+      style="font-family: Montserrat; font-weight: 600; letter-spacing: 2px"
     >
       <div class="container text-center">
         <br /><br /><br />
@@ -856,11 +862,10 @@
           <p>+91 9014534883</p>
         </div>
         <div>
-     
           <a href="mailto:aacgriet.org@gmail.com" style="color: #fff"
-              ><i class="fa fa-envelope"></i></a>
-         
-        
+            ><i class="fa fa-envelope"></i
+          ></a>
+
           <p>
             <a href="mailto:aacgriet.org@gmail.com" style="color: #fff"
               >aacgriet.org@gmail.com</a
@@ -905,77 +910,77 @@
 
       $(document).ready(function () {
         $('.menu-icon').on('click', function () {
-          $('nav ul').toggleClass('showing')
-        })
+          $('nav ul').toggleClass('showing');
+        });
         $('.menu-icon').click(function () {
-          $('.drone').toggle()
-        })
-      })
+          $('.drone').toggle();
+        });
+      });
 
       // Scrolling Effect
 
       $(window).on('scroll', function () {
         if ($(window).scrollTop()) {
-          $('nav').addClass('black')
+          $('nav').addClass('black');
         } else {
-          $('nav').removeClass('black')
+          $('nav').removeClass('black');
         }
-      })
+      });
 
       /* When the user scrolls down, hide the drone. */
       $(window).scroll(function () {
         if ($(this).scrollTop() > 200) {
-          $('.drone').hide()
+          $('.drone').hide();
         } else {
-          $('.drone').show()
+          $('.drone').show();
         }
-      })
+      });
 
       $(function () {
         $(window).scroll(function () {
           if ($(this).scrollTop() > 490) {
             $('.logo img')
               .attr('src', './img/icons/logo.png')
-              .css('width', '190px;')
-            $('.black').css('background', 'rgb(33,38,3b)')
-            $('nav.black .logo img').css('background', 'rgba(0,0,0,0.2)')
+              .css('width', '190px;');
+            $('.black').css('background', 'rgb(33,38,3b)');
+            $('nav.black .logo img').css('background', 'rgba(0,0,0,0.2)');
           } else {
-            $('.logo img').attr('src', './img/icons/GRIET_Logo.png')
-            $('.black').css('background', 'rgba(0, 0, 0, 0.2)')
-            $('nav.black .logo img').css('background', 'rgba(0,0,0,0)')
+            $('.logo img').attr('src', './img/icons/GRIET_Logo.png');
+            $('.black').css('background', 'rgba(0, 0, 0, 0.2)');
+            $('nav.black .logo img').css('background', 'rgba(0,0,0,0)');
           }
-        })
-      })
+        });
+      });
 
-      var slideIndex = 1
-      showSlides(slideIndex)
+      var slideIndex = 1;
+      showSlides(slideIndex);
 
       function plusSlides(n) {
-        showSlides((slideIndex += n))
+        showSlides((slideIndex += n));
       }
 
       function currentSlide(n) {
-        showSlides((slideIndex = n))
+        showSlides((slideIndex = n));
       }
 
       function showSlides(n) {
-        var i
-        var slides = document.getElementsByClassName('mySlides')
-        var dots = document.getElementsByClassName('dot')
+        var i;
+        var slides = document.getElementsByClassName('mySlides');
+        var dots = document.getElementsByClassName('dot');
         if (n > slides.length) {
-          slideIndex = 1
+          slideIndex = 1;
         }
         if (n < 1) {
-          slideIndex = slides.length
+          slideIndex = slides.length;
         }
         for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = 'none'
+          slides[i].style.display = 'none';
         }
         for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(' active', '')
+          dots[i].className = dots[i].className.replace(' active', '');
         }
-        slides[slideIndex - 1].style.display = 'block'
-        dots[slideIndex - 1].className += ' active'
+        slides[slideIndex - 1].style.display = 'block';
+        dots[slideIndex - 1].className += ' active';
       }
     </script>
 
