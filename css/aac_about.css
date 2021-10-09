@@ -44,7 +44,7 @@ h1{
 p.head_brief {
     font-size: 1.125em;
     font-style: italic;
-    font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .name{
     margin-top:5px;
@@ -104,7 +104,7 @@ margin-left:40px;
     line-height: 1.23076923em;
         margin-top: 1.25em;
     margin-bottom: 0.5em;
-    font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 1.25;
         background-color: transparent;
@@ -114,7 +114,7 @@ margin-left:40px;
     font-size: 1.2em;
     color: black;
     line-height: 1.4375em;
-    font-family: 'Source Serif Pro', 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     text-align: justify;
 }
 .img1{
