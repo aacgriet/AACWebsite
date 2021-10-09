@@ -29,7 +29,8 @@ footer {
   box-sizing: border-box;
   width: 100%;
   text-align: -webkit-center;
-  font: bold 16px sans-serif;
+  font: bold 16px;
+  font-family: 'Poppins', sans-serif;
   padding: 30px 30px 30px 30px;
   margin-top: 0px;
 }
