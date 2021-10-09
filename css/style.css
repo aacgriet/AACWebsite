@@ -6,6 +6,12 @@
 	scroll-behavior: smooth;
 	
 }
+.menu .active li{
+	margin: 6px;
+  }
+  .logo{
+	margin-left: 6px;
+  }
 
 nav .logo img{
 	float: left;	 
