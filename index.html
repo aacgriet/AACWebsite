@@ -72,7 +72,7 @@
         /></a>
       </div>
       <div class="menu">
-        <ul class="active" style="background: transparent;">
+        <ul class="active" style="background: transparent">
           <li><a href="index.html">Home</a></li>
           <li><a href="aac_about.html">About</a></li>
           <li><a href="aac_news.html">News</a></li>
@@ -88,8 +88,16 @@
             <a href="projects.html"
               >Research<i class="fa fa-caret-down"></i>
             </a>
-            <ul style="background:rgba(0, 0, 0, 0.3);  /* fallback for old browsers */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            ">
+            <ul
+              style="
+                background: rgba(
+                  0,
+                  0,
+                  0,
+                  0.3
+                ); /* fallback for old browsers */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+              "
+            >
               <li><a href="projects.html">Projects</a></li>
               <li><a href="research_papers.html">Publications</a></li>
               <li><a href="patents.html">Patents</a></li>
@@ -104,13 +112,13 @@
       </div>
     </nav>
     <style>
-      nav .logo{
+      nav .logo {
         height: 23px;
       }
-      .menu .active li{
+      .menu .active li {
         margin: 6px;
       }
-      .logo{
+      .logo {
         margin-left: 6px;
       }
     </style>
@@ -949,14 +957,13 @@
         $(window).scroll(function () {
           if ($(this).scrollTop() > 490) {
             $('.logo img')
-              .attr('src', './img/icons/AAC-G.svg')
-              .css('width', '190px;')
-            $('.black').css('background', 'rgb(33,38,3b)')
-            
+              .attr('src', './img/icons/AAC-G.png')
+              .css('width', '190px;');
+            $('.black').css('background', 'rgb(33,38,3b)');
           } else {
-            $('.logo img').attr('src', './img/icons/GRIET-G.svg')
-            $('.black').css('background', 'rgba(0, 0, 0, 0.2)')
-            $('nav.black .logo img').css('background', 'rgba(0,0,0,0)')
+            $('.logo img').attr('src', './img/icons/GRIET-G.svg');
+            $('.black').css('background', 'rgba(0, 0, 0, 0.2)');
+            $('nav.black .logo img').css('background', 'rgba(0,0,0,0)');
           }
         });
       });
