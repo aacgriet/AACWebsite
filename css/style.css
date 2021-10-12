@@ -99,8 +99,13 @@ nav ul ul{
     	 text-align:center;
     }
 
-    
+    .box{
+		font-family: 'Montserrat', sans-serif;
+	}
+	.mySlides{
+		font-family: 'Poppins', sans-serif;
 
+	}
 
 
 #particles-js{
