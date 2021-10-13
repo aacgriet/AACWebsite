@@ -61,7 +61,7 @@
   <body>
     <!--Navigation bar-->
 
-    <nav>
+    <nav class="glass" id="navigation-bar">
       <div class="menu-icon">
         <i class="fa fa-bars fa-2x"></i>
       </div>
@@ -815,6 +815,7 @@
     </div>
 
     <!-- ABOUT AAC PANEL-->
+    <section class="about-image-footer">
     <div
       class="about-panel"
       id="about-panel"
@@ -853,7 +854,7 @@
       </div>
       <br />
     </div>
-
+<hr class="footer-hr">
     <!--FOOTER--->
     <footer class="footer-distributed">
       <div class="footer-left">
@@ -879,19 +880,19 @@
           <p>+91 9014534883</p>
         </div>
         <div>
-          <a href="mailto:aacgriet.org@gmail.com" style="color: #fff"
+          <a href="mailto:aacgriet.org@gmail.com" style="color: #000"
             ><i class="fa fa-envelope"></i
           ></a>
 
           <p>
-            <a href="mailto:aacgriet.org@gmail.com" style="color: #fff"
+            <a href="mailto:aacgriet.org@gmail.com" style="color: #000"
               >aacgriet.org@gmail.com</a
             >
           </p>
         </div>
       </div>
       <div class="footer-right">
-        <p class="footer-company-about" style="color: #fff">
+        <p class="footer-company-about" style="color: #000">
           <span>About the AAC</span>
           The epicenter for creative solutions.
         </p>
@@ -921,9 +922,16 @@
         <p>Designed and Developed by Team AAC</p>
       </div>
     </footer>
+  </section>
 
     <script type="text/javascript">
       // Menu-toggle button
+      $(function () {
+    $(document).scroll(function () {
+      var $nav = $("#navigation-bar");
+      $nav.toggleClass('glass', $(this).scrollTop() > $nav.height()*4);
+    });
+  });
 
       $(document).ready(function () {
         $('.menu-icon').on('click', function () {
@@ -936,13 +944,13 @@
 
       // Scrolling Effect
 
-      $(window).on('scroll', function () {
-        if ($(window).scrollTop()) {
-          $('nav').addClass('black');
-        } else {
-          $('nav').removeClass('black');
-        }
-      });
+      // $(window).on('scroll', function () {
+      //   if ($(window).scrollTop()) {
+      //     $('nav').addClass('black');
+      //   } else {
+      //     $('nav').removeClass('black');
+      //   }
+      // });
 
       /* When the user scrolls down, hide the drone. */
       $(window).scroll(function () {
@@ -959,10 +967,11 @@
             $('.logo img')
               .attr('src', './img/icons/AAC-G.svg')
               .css('width', '190px;');
-          } else {
+          }
+           else {
             $('.logo img').attr('src', './img/icons/GRIET-G.svg');
-            $('.black').css('background', 'rgba(0, 0, 0, 0.2)');
-            $('nav.black .logo img').css('background', 'rgba(0,0,0,0)');
+            // $('.black').css('background', 'rgba(0, 0, 0, 0.2)');
+            // $('nav.black .logo img').css('background', 'rgba(0,0,0,0)');
           }
         });
       });

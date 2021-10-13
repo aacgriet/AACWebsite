@@ -194,9 +194,21 @@ h1{
  right: 0;
  border-width: 1em 1em 0 0;
 }
-
-.about-panel{
+.about-image-footer{
 	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/wallpapers/sky3.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.glass{
+    background-color: rgba(red, green, blue, 0.8);
+    border: 1px solid rgba(red, green, blue, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: block;
+	background-color: rgba(0,0,0,0.1);   
+}
+.about-panel{
+	/* background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/wallpapers/sky3.jpg); */
 	background-size: cover;	
 	background-position: center;
 	width: 100%;
