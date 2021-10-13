@@ -19,44 +19,59 @@
 </head>
 <body>
 <div>		
-                  <nav style="background-color: #33b5e5">
+	<nav style="background: #33B5E5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #33B5E5, #33B5E5, #33B5E5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #33B5E5, #33B5E5, #33B5E5); ">
+	  <div class="menu-icon">
+		<i class="fa fa-bars fa-2x"></i>
+	  </div>
 
-                        <div class="menu-icon">
-                              <i class="fa fa-bars fa-2x"></i>
-                        </div>
-
-                        <div class="logo">
-                          <a href="index.html#"><img src="./img/icons/logo.png" alt="AAC LOGO"></a> 
-                        </div>
-                        <div class="menu">
-		                     <ul class="active" >
-								<li><a href="mentors.html">Mentors</a></li>
-								<li><a href="committee.html">Committee</a></li>	
-								<li><a href="https://connectblog.pythonanywhere.com/">.Connect</a></li>
-								<li><a href="commingsoon.html">Login</a></li>
-							</ul>
-							<ul class="active">
-								<li><a href="index.html">Home</a></li>	
-								<li><a href="aac_about.html">About</a></li>
-								<li><a href="projects.html">Research<i class="fa fa-caret-down"></i>
-										    </a>
-										    <ul style="background-color: #33b5e5;"  >
-										      <li><a href="projects.html">Projects</a>
-										      	 
-										      </li>
-										      <li><a href="research_papers.html">Publications</a></li>
-										     <li><a href="patents.html">Patents</a></li> 
-										     <li><a href="books&blogs.html">Books&Blogs</a></li>
-										    </ul>
-								</li>
-										    
-								<li><a href="library.html">AACLibrary</a></li>
-									<li><a href="aac_news.html">News</a></li>
-							</ul>
-                        </div>
-                  </nav>
-              </div>
-              <br><br><br><br>
+	  <div class="logo">
+		<a href="index.html#"
+		  ><img src="./img/icons/AAC.svg" alt="AAC LOGO"
+		/></a>
+	  </div>
+	  <div class="menu">
+		<ul class="active">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="aac_about.html">About</a></li>
+		  <li><a href="aac_news.html">News</a></li>
+		  <!-- <li>
+			<a href="http://connectblog.pythonanywhere.com/">.Connect</a>
+		  </li>
+		 
+		</ul>
+		<ul class="active"> -->
+		  <li><a href="mentors.html">Mentors</a></li>
+		  <li><a href="committee.html">Committee</a></li>
+		  <li>
+			<a href="projects.html"
+			  >Research<i class="fa fa-caret-down"></i>
+			</a>
+			<ul style="background: #33B5E5;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to top, #33B5E5, #33B5E5);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to top, #33B5E5, #33B5E5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			">
+			  <li><a href="projects.html">Projects</a></li>
+			  <li><a href="research_papers.html">Publications</a></li>
+			  <li><a href="patents.html">Patents</a></li>
+			  <li><a href="books&blogs.html">Books&Blogs</a></li>
+			</ul>
+		  </li>
+		  <li><a href="library.html">AACLibrary</a></li>
+		  <li>
+			<a href="commingsoon.html">Login</a>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
+  </div>
+  <br /><br /><br /><br />
+  <style>
+	nav .logo{
+	  height: 23px;
+	}
+  </style>
 <div class="heading">
 <h1  style="font-weight: 600;font-size: 80px;margin: 20px;font-family: 'Advent Pro', sans-serif;letter-spacing: 5px;">Advisors</h1>
 <p class="head_brief"></p>
@@ -170,7 +185,7 @@ She has performed research in the area of Power systems under Deregulated power 
 	<div class="detail_des">
 
 	
-	<img class="img1" src="./img/mentors/Sateesh.jpg">
+	<img class="img1" src="./img/mentors/Sateesh.png">
 <p class="detail_des_p">Dr. N. Sateesh currently working as Professor and Head of the Mechanical Department, finished his under graduation from Nagarjuna University, Andhra Pradesh and post-graduation from JNTUH, Hyderabad. He did his PHD from Osmania University. His areas of research and interest include CAD/CAM, Composite material. His project proposal on DST is ready. 
 </div>
 
@@ -216,7 +231,7 @@ She has performed research in the area of Power systems under Deregulated power 
 	<div class="detail_des">
 
 	
-	<img class="img1" src="./img/mentors/Srinivas.jpg">
+	<img class="img1" src="./img/mentors/Srinivas.png">
 <p class="detail_des_p"> Dr. B. Srinivas Rao currently working as Professor & Head at GRIET, has obtained his Under-Graduation Degree from Acharya Nagarjuna University, Masters from BITS and PHD from University of Bhopal. His areas of research and interests include IOT, Information Security, Neural Networks, WSN, Cryptography, Adhoc Network. He worked on Controller based projects such as WSN, Heuristic Models for Cryptanalysis. 
 </div>
 
@@ -240,7 +255,7 @@ She has performed research in the area of Power systems under Deregulated power 
 	<div class="detail_des">
 
 	
-	<img class="img1" src="./img/mentors/gmrpic.jpg">
+	<img class="img1" src="./img/mentors/gmrpic.png">
 <p class="detail_des_p">G Mallikarjuna Rao is a Professor, Computer Science Engineering, GRIET, since 2008. He obtained his UG degree from SVH College of Engineering,Nagarjuna University and PhD from JNTUH.                                                                         He worked on R & D Projects like Operating Systems and Parallel Programming LAB, MODROB, AICTE FUNDED project. His areas of interest include Computer Vision, Pattern Recognition, Image processing, Machine Learning and Artificial Intelligence.He delivered Guest lectures on “Computer Organization”, at JNTU Karimnagar, 2018-03-24 and on ‘‘Computer Organization” , at JNTU Karimnagar, 2018-03-29.
     <p class="detail_des_p">Some of his publications were popularly recognized such as:
     <br>
@@ -310,7 +325,7 @@ ISSN:-2319 –8656.
 	<div class="detail_des">
 
 	
-	<img class="img1" src="./img/mentors/Meenakshi.jpg">
+	<img class="img1" src="./img/mentors/Meenakshi.png">
 <p class="detail_des_p">DR. K. Meenakshi has been working in GRIET from past eight years for now. Now, she is currently holding a position of professor in department of Electronics and Communication. She did her under-graduation from Siddhartha Engineering College, Vijayawada and post-graduation from JNTU, Hyderabad. She did her PHD from JNTU, Kakinada.
  She has over 14 years of experience in teaching. Her area of research and interest is Image Processing. She personally guided students on projects in Image Processing and Embedded Systems and is currently working on optimization of watermarking.  
 </div>
@@ -402,7 +417,7 @@ ISSN:-2319 –8656.
 	<div class="detail_des">
 
 	
-	<img class="img1" src="./img/mentors/RamSubbiah.jpg">
+	<img class="img1" src="./img/mentors/RamSubbiah.png">
 <p class="detail_des_p">Dr. Ram Subbiah is   currently working as Associate Professor at GRIET has finished his under graduation from Anna University, Chennai in Mechanical Engineering and post-graduation from SRM, Chennai in CIM. He did his PHD from Singhania University, Pilani   in Material Science. He worked on manufacturing related projects. His areas of research and interests include Material Science, Automation and Mechatronics. 
 </div>
 
@@ -451,7 +466,7 @@ ISSN:-2319 –8656.
 	<div class="detail_des">
 
 	
-	<img class="img1" src="./img/mentors/siva.jpg">
+	<img class="img1" src="./img/mentors/siva.png">
 <p class="detail_des_p"> V. Venkata Siva Reddy currently working as Asst. Professor at GRIET, has obtained his Under-Graduation Degree from S.V. University in Civil Engineering, Masters from JNTU in Structural Engineering. His areas of research and interests include GIS Projects and building planning.  He worked on GIS related. He is Currently working on Planning of 2BHk in 60X70 flat. 
 </div>
 

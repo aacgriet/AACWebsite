@@ -5,11 +5,11 @@ body{
 .description{
 	margin: 100px;
 	margin-top: 50px;
+	font-family: 'Poppins', sans-serif;
 }
 .heading{
 	font-weight: 900;
-	font-family: Advent Pro;
-	
+	font-family: 'Montserrat', sans-serif;
 }
 .h1{
 	font-weight: 900;
