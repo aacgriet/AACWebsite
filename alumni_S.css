@@ -18,8 +18,14 @@ left: 919px;
 top: 223px;
 background: rgba(153, 218, 243, 0.5);
 }
-
-
+header h1{
+  margin: 2rem;
+  height: 5px;
+}
+.boxcol{
+  height: 307px;
+  background-color: #3B5998;
+}
 .video{
     position: absolute;
 width: 704px;
@@ -30,21 +36,7 @@ top: 304px;
 background: #ECECEC;
 border-radius: 30px;
 }
-.boxcol{
-  margin-top: 35px;
-  border: 1px solid #3B5998;
-  height: 387px;
-  background: rgba(153, 218, 243, 0.5);
-}
-.boxcol h4{
-  margin: 6px;
-}
-.header{
-  margin-top: 45px;
-}
-.vidcol{
-  margin-top: 35px;
-}
+
 .content{
     position: absolute;
 width: 704px;
@@ -64,6 +56,7 @@ text-align: justify;
 .icons{
     
     position: absolute;
+    justify-content: center;
     width: 471px;
     height: 84px;
     left: 650px;
@@ -104,4 +97,12 @@ fa-twitter {
 fa-envelope {
     background: #3B5998;
     color: #3B5998;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .vidcol video{
+      width: 400px;
+      height: 307px;
+      }
   }
