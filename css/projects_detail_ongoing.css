@@ -63,6 +63,11 @@ p.head_brief {
   display: inline-block;
   /* float: left; */
 }
+
+.detailsnew {
+  font-family: 'Poppins', sans-serif;
+}
+
 .detail_des_h {
   display: block;
   font-size: 1.625em;
