@@ -17,6 +17,11 @@
   background: rgba(153, 218, 243, 0.5);
 }
 
+.box h4 {
+  position: relative;
+  padding: 2rem 0rem 2rem 1rem;
+}
+
 .video {
   position: absolute;
   width: 704px;
