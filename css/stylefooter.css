@@ -62,7 +62,7 @@ footer {
 }
 
 .footer-distributed h3 span {
-  color: #e0ac1c;
+  color: #000;
 }
 
 /* Footer links */
@@ -137,7 +137,7 @@ footer {
 }
 
 .footer-distributed .footer-center p a {
-  color: #e0ac1c;
+  color: #000;
   text-decoration: none;
 }
 
