@@ -32,24 +32,17 @@
       href="https://unpkg.com/flickity@2.0/dist/flickity.min.css"
     />
     <link rel="stylesheet" type="text/css" href="./css/stylefooter.css" />
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
-    <style>
-      body {
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-        background-position: fixed;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        color: white;
-      }
-    </style>
 </head>
 <body>
      <!--Navigation bar-->
+     
      <div>
         <nav
           style="
@@ -125,36 +118,561 @@
         }
       </style>
       <!--Navigation Bar END-->
-      <div class="committeeS">
-          <h1 style="color: rgba(0, 0, 0, 1); padding-top: 1rem; font-size: 4rem;">COMMITTEE</h1>
-          <br>
-          <div class="carousel-wrapper">
-              <div class="carousel" data-flickity>
-                  <div class="carousel-cell">
-                      <div class="out-box">
-                          <div class="top-box">
+      <h1 style="padding-top: 30px; font-size: 60px;">
+        COMMITTEE
+      </h1>
+    </div>
+    <br /><br />
 
-                          </div>
-                          <div class="img">
-                              <img src="./img/mentors/dr-s-ramurathy.jpg" class="img1" alt="">
-                          </div>
-                          <div class="card-content">
-                              <h4 class="name">Dr Ramamurthy Suri</h4>
-                              <h6 class="occupation">Associate Dean, AAC</h6>
-                              <hr/>
-                              <p class="opinion_p">
-                                  Specializes in Mathematical and approximation theory 
-                                  and statistical pattern recognition.
-                              </p>
-                              <a href="desciptivestudents.html#rammurthy">Know More</a>
-                              <div class="footer-icons">
-                                  <a href="mailto:ramamurthysuri@griet.ac.in" target="_blank"><i class="fa fa-envelope"></i></a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+    <!---Instigators-->
+
+    <div class="carousel-wrapper">
+      <br /><br />
+
+      <div class="carousel" data-flickity>
+        <div class="carousel-cell">
+          <div class="out_box">
+            <div class="top_box"></div>
+            <div class="img">
+              <img src="./img/mentors/dr-s-ramurathy.jpg" class="img1" />
+            </div>
+            <div class="card_content">
+              <!--Name-->
+              <h4 class="name">Dr Ramamurthy Suri</h4>
+              <h6 class="ocupation" style="line-height: 1; font-size: 0.8rem">
+                Associate Dean, AAC
+              </h6>
+              <hr />
+              <!--Quotation-->
+              <p class="opinion_p">
+                <i class="opinion_i"></i>Specializes in Mathematical
+                approximation theory and Statistical pattern recognition
+              </p>
+
+              <p class="opinion_p"><i class="opinion_i"></i></p>
+              <a href="desciptivestudents.html#rammurthy">Know More</a>
+              <div class="footer-icons">
+                <a href="mailto:ramamurthysuri@griet.ac.in" target="_blank"
+                  ><i class="fa fa-envelope"></i
+                ></a>
               </div>
+            </div>
           </div>
+        </div>
       </div>
+    </div>
+                    
+      <div class="header">
+        <h1 style="padding-top: 20px;">Senior Core Committee</h1>
+      </div>
+
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+      
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+      
+            <!--First slide-->
+            <div class="carousel-item active">
+      
+              <div class="row">
+                <div class="col-md-4" style="padding-top: 30px;">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="./img/corecommitee/suhasg.jpeg"
+                         alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Suhas G</h4>
+                      <h5>President, AAC</h5>
+                      <p class="card-text">An obsessed reasearcher, always
+                        looking for game changing technological invention.</p>
+                      <a class="btn btn-primary">Know More..</a>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="./img/corecommitee/rishwanth.jpg"
+                         alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Rishwanth Perumandla</h4>
+                      <h5>Vice President, AAC</h5>
+                      <p class="card-text">Freelance Full Stack Web Developer.</p>
+                      <p>.</p>
+                      <a class="btn btn-primary">Know More..</a>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="./img/corecommitee/bharath.jpeg"
+                         alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">K.BHARATH VARMA</h4>
+                      <h5>Technical Team Head</h5>
+                      <p class="card-text">Interested in Data Science, AI, ML.</p>
+                      <p>.</p>
+                      <a class="btn btn-primary">Know More..</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+            <!--/.First slide-->
+      
+            <!--Second slide-->
+            <div class="carousel-item">
+      
+              <div class="row">
+                <div class="col-md-4" style="padding-top: 30px;">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="./img/corecommitee/poojitha.jpeg"
+                         alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Poojitha Manda</h4>
+                      <h5>Human Resource Head</h5>
+                      <p class="card-text">Enthusiast of developing websites.
+                        Entering the world of Artificial intelligence and image processing.</p>
+                      <a class="btn btn-primary">Know More..</a>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="./img/corecommitee/Shravani.jpeg"
+                         alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">U.Reshma Shravani</h4>
+                      <h5>HR Head</h5>
+                      <p class="card-text">Curious to know about new technologies.
+                        Determined towards image processing and drone
+                        Technology.</p>
+                      <a class="btn btn-primary">Know More..</a>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="./img/corecommitee/umakanth.jpg"
+                         alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Umakanth Sahu</h4>
+                      <h5>Database management</h5>
+                      <p class="card-text">Highly motivated towards Data Science
+                        and Image processing.Curious towards new technology.</p>
+                      <a class="btn btn-primary">Know More..</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+            <!--/.Second slide-->
+      
+            <!--Third slide-->
+            <div class="carousel-item">
+      
+              <div class="row">
+                <div class="col-md-4" style="padding-top: 30px;">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="./img/corecommitee/suhasB.PNG"
+                         alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Suhas Bheemisetty</h4>
+                      <h5>Creative Head</h5>
+                      <p class="card-text">A Design Fanatic in relentless pursuit
+                        of innovation, In love with Colors and Components.</p>
+                      <a class="btn btn-primary">Know More..</a>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="./img/corecommitee/sathvik.jpeg"
+                         alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Saggurthi Sathvik</h4>
+                      <h5>Lab Resources Team</h5>
+                      <p class="card-text">An ardent mind, eager to learn and to
+                        bring a remarkable breakthrough.</p>
+                      <a class="btn btn-primary">Know More..</a>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="./img/corecommitee/naveen.jpeg"
+                         alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Thumma Naveen</h4>
+                      <h5>Lab Resources Team</h5>
+                      <p class="card-text">In love with innovation and advancement
+                        of technology. Entering the world of Artificial Intelligence.</p>
+                      <a class="btn btn-primary">Know More..</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+            <!--/.Third slide-->
+                        <!--fourth slide-->
+                        <div class="carousel-item">
+      
+                          <div class="row">
+                            <div class="col-md-4" style="padding-top: 30px;">
+                              <div class="card mb-2">
+                                <img class="card-img-top" src="./img/corecommitee/richavasavi.jpeg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                  <h4 class="card-title">Richa Vasavi</h4>
+                                  <h5>Finance Management Head</h5>
+                                  <p class="card-text">Highly Interested in Machine Learning
+                                    and Problem Solving</p>
+                                  <a class="btn btn-primary">Know More..</a>
+                                </div>
+                              </div>
+                            </div>
+                  
+                            <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                              <div class="card mb-2">
+                                <img class="card-img-top" src="./img/corecommitee/harshini.jpeg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                  <h4 class="card-title">K.Harshini</h4>
+                                  <h5>Finance Management Head</h5>
+                                  <p class="card-text">Voracious reader,keen observer and a
+                                    intense thinker.Immense love towards art.</p>
+                                  <a class="btn btn-primary">Know More..</a>
+                                </div>
+                              </div>
+                            </div>
+                  
+                            <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                              <div class="card mb-2">
+                                <img class="card-img-top" src="./img/corecommitee/reethika.jpeg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                  <h4 class="card-title">Reethika</h4>
+                                  <h5>Public And Corporate Relations Team</h5>
+                                  <p class="card-text">An entrepreneur holding an event
+                                    organizing company.Looking forward to develop my technical
+                                    skills.</p>
+                                  <a class="btn btn-primary">Know More..</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                  
+                        </div>
+                        <!--/.fourth slide-->
+                                                <!--fifth slide-->
+                        <div class="carousel-item">
+      
+                          <div class="row">
+                            <div class="col-md-4" style="padding-top: 30px;">
+                              <div class="card mb-2">
+                                <img class="card-img-top" src="./img/corecommitee/dsrikanth.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                  <h4 class="card-title">Srikanth Domakonda</h4>
+                                  <h5>Public and Corporate Relations Team</h5>
+                                  <p class="card-text">Interested in IoT and Machine Learning.
+                                    Currently working on drone technology and image processing.</p>
+                                  <a class="btn btn-primary">Know More..</a>
+                                </div>
+                              </div>
+                            </div>
+                  
+                            <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                              <div class="card mb-2">
+                                <img class="card-img-top" src="./img/corecommitee/"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                  <h4 class="card-title">Card title</h4>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                    card's content.</p>
+                                  <a class="btn btn-primary">Know More..</a>
+                                </div>
+                              </div>
+                            </div>
+                  
+                            <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                              <div class="card mb-2">
+                                <img class="card-img-top" src="./img/corecommitee/"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                  <h4 class="card-title">Card title</h4>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                    card's content.</p>
+                                  <a class="btn btn-primary">Know More..</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                  
+                        </div>
+                        <!--/.fifth slide-->
+      
+          </div>
+          <!--/.Slides-->
+      
+        </div>
+        <!--/.Carousel Wrapper-->
+          <!--Controls-->
+    <div class="controls-top" style="text-align: center;">
+      <a class="btn-floating" href="#multi-item-example" data-slide="prev" style="padding-right: 45px;"><i class="fa fa-chevron-left"></i></a>
+      <a class="btn-floating" href="#multi-item-example" data-slide="next" style="padding-left:45px;"><i class="fa fa-chevron-right"></i></a>
+    </div>
+    <!--/.Controls-->
+
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+      <li data-target="#multi-item-example" data-slide-to="1"></li>
+      <li data-target="#multi-item-example" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+      
+    </div>
+            <div class="header">
+              <h1 style="padding-top: 20px;">Junior Core Committee</h1v>
+            </div>
+
+            <!--Carousel Wrapper-->
+            <div id="multi-item-example1" class="carousel slide carousel-multi-item" data-ride="carousel">
+      
+              <!--Slides-->
+              <div class="carousel-inner" role="listbox">
+          
+                <!--First slide-->
+                <div class="carousel-item active">
+          
+                  <div class="row">
+                    <div class="col-md-4" style="padding-top: 30px;">
+                      <div class="card mb-2">
+                        <img class="card-img-top" src="./img/corecommitee/suhasg.jpeg"
+                             alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Valaboju Ruchita</h4>
+                          <h5>President</h5>
+                          <a class="btn btn-primary">Know More..</a>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                      <div class="card mb-2">
+                        <img class="card-img-top" src="./img/corecommitee/rishwanth.jpg"
+                             alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Chimmula Pranav Reddy</h4>
+                          <h5>Vice President</h5>
+                          <a class="btn btn-primary">Know More..</a>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                      <div class="card mb-2">
+                        <img class="card-img-top" src="./img/corecommitee/bharath.jpeg"
+                             alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Harish Rohan Kambhampaty</h4>
+                          <h5>Technical Head</h5>
+                          <a class="btn btn-primary">Know More..</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+                <!--/.First slide-->
+          
+                <!--Second slide-->
+                <div class="carousel-item">
+          
+                  <div class="row">
+                    <div class="col-md-4" style="padding-top: 30px;">
+                      <div class="card mb-2">
+                        <img class="card-img-top" src="./img/corecommitee/poojitha.jpeg"
+                             alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Lakshmi Sai Niharika Vulchi</h4>
+                          <h5>Database Head</h5>
+                          <a class="btn btn-primary">Know More..</a>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                      <div class="card mb-2">
+                        <img class="card-img-top" src="./img/corecommitee/Shravani.jpeg"
+                             alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Akshitha Thotla</h4>
+                          <h5>Event Planning Head</h5>
+                          <a class="btn btn-primary">Know More..</a>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                      <div class="card mb-2">
+                        <img class="card-img-top" src="./img/corecommitee/umakanth.jpg"
+                             alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Padmini Kousalaya Madhira</h4>
+                          <h5>PR Head</h5>
+                          <a class="btn btn-primary">Know More..</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+                <!--/.Second slide-->
+          
+                <!--Third slide-->
+                <div class="carousel-item">
+          
+                  <!-- <div class="row">
+                    <div class="col-md-4" style="padding-top: 30px;">
+                      <div class="card mb-2">
+                        <img class="card-img-top" src="./img/corecommitee/suhasB.PNG"
+                             alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Card title</h4>
+                          <h5></h5>
+                          <a class="btn btn-primary">Know More..</a>
+                        </div>
+                      </div>
+                    </div> -->
+          
+                    <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                      <div class="card mb-2">
+                        <img class="card-img-top" src="./img/corecommitee/sathvik.jpeg"
+                             alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Manasa Padi</h4>
+                          <h5>Finance Head</h5>
+                          <a class="btn btn-primary">Know More..</a>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <!-- <div class="col-md-4 clearfix d-none d-md-block" style="padding-top: 30px;">
+                      <div class="card mb-2">
+                        <img class="card-img-top" src="./img/corecommitee/naveen.jpeg"
+                             alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Card title</h4>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                          <a class="btn btn-primary">Know More..</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+          
+                </div>
+                <!--/.Third slide-->
+          
+              </div>
+              <!--/.Slides-->
+          
+            </div>
+            <!--/.Carousel Wrapper-->
+              <!--Controls-->
+        <div class="controls-top" style="text-align: center; padding-bottom: 20px;">
+          <a class="btn-floating" href="#multi-item-example1" data-slide="prev" style="padding-right: 45px;"><i class="fa fa-chevron-left"></i></a>
+          <a class="btn-floating" href="#multi-item-example1" data-slide="next" style="padding-left:45px;"><i class="fa fa-chevron-right"></i></a>
+        </div>
+        <!--/.Controls-->
+    
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#multi-item-example1" data-slide-to="0" class="active"></li>
+          <li data-target="#multi-item-example1" data-slide-to="1"></li>
+          <li data-target="#multi-item-example1" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+          
+        </div>
+         <!--FOOTER--->
+
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <img src="./img/icons/logo.png" style="width: 100%; height: 200px" />
+        <!--<h1 style="    color: #8f9296; font-size: 44px;">AAC</h1> -->
+
+        <p class="footer-company-name">© 2019 Advanced Academic Centre.</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <a
+            href="https://www.google.com/maps/dir/17.5262076,78.3728344/advanced+academic+center+griet/@17.5226068,78.3670194,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bcb8d42d6f1f7ff:0xf9e2e5aa8a14a917!2m2!1d78.3674061!2d17.5204867"
+            ><i class="fa fa-map-marker"></i
+          ></a>
+          <p>
+            <span>Room no.3614, Block 3, GRIET, Bachupally, </span> Kukatpally,
+            Hyderabad- 500090
+          </p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+91 9014534883</p>
+        </div>
+        <div>
+          <a href="mailto:aacgriet.org@gmail.com" style="color: #fff"
+            ><i class="fa fa-envelope"></i
+          ></a>
+          <p>
+            <a href="mailto:aacgriet.org@gmail.com" style="color: #fff"
+              >aacgriet.org@gmail.com</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about" style="color: #fff">
+          <span>About the AAC</span>
+          The epicenter for creative solutions.
+        </p>
+
+        <p class="footer-links">
+          <a href="index.html">Home</a>
+          |
+          <a href="aac_about.html">About</a>
+          |
+          <a href="faq.html">FAQ</a>
+        </p>
+        <div class="footer-icons">
+          <a href="https://www.linkedin.com/company/aac-griet"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/advanced-academic-center"
+            ><i class="fa fa-github"></i
+          ></a>
+          <a href="https://instagram.com/aac_grietofficial?igshid=ijzbi8c7jl27"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UCqpWtDtDLxBLy8yJZO_-eBw"
+            ><i class="fa fa-youtube"></i
+          ></a>
+        </div>
+        <br />
+        <p>Designed and Developed by Team AAC</p>
+      </div>
+    </footer>
+    <!--Footer end-->
 </body>
 </html>
