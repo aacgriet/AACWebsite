@@ -28,12 +28,18 @@
 .alumni-body {
   width: 85%;
   margin: auto;
+
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* flex: 1px 1px 40px; */
 }
 
 .alumni-profile {
   padding-bottom: 3rem;
   display: flex;
+  flex: 1 1 50%;
 }
 .alumni-profile-content {
   padding-left: 0.5rem;
@@ -43,4 +49,5 @@
   width: 13rem;
   height: 12.063rem;
   object-fit: cover;
+  border-radius: 50%;
 }
