@@ -1,4 +1,6 @@
 /* Alumni intro  */
+
+
 .alumni-intro {
   min-height: 28.7vh;
   margin-bottom: 2rem;
@@ -15,6 +17,7 @@
   width: 85%;
   margin: auto;
   padding-top: 5rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* .alumni-head-image img {
@@ -28,7 +31,7 @@
 .alumni-body {
   width: 85%;
   margin: auto;
-
+  font-family: 'Poppins', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
