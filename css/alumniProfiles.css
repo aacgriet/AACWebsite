@@ -33,9 +33,8 @@
   margin: auto;
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+
+
   /* flex: 1px 1px 40px; */
 }
 
