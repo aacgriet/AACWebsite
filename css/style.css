@@ -235,7 +235,8 @@ h1{
     grid-gap: 25px;
 }
 .logo{
-	height: 65px;
+	/* height: 65px; */
+	width: 65px;
 }
 
 
