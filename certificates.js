@@ -103,9 +103,6 @@ const cert = {
     "GR/AAC/21/54/C" : "AAC - Certificates_page-0101",
     "GR/AAC/21/54/D" : "AAC - Certificates_page-0102",
     "GR/AAC/21/54/E" : "AAC - Certificates_page-0103",
-
-    //LOR certificates
-
     "GRAAC21TR1"  :"AAC - Certificates_page-0104",
     "GRAAC21TR2"  :"AAC - Certificates_page-0105",
     "GRAAC21TR3"  :"AAC - Certificates_page-0106",
@@ -122,8 +119,6 @@ const cert = {
     "GRAAC21TR14" :"AAC - Certificates_page-0117",
     "GRAAC21TR15" :"AAC - Certificates_page-0118",
     "GRAAC21TR16" :"AAC - Certificates_page-0119",
-
-    //Mentor certificates
     "GR/AAC/21/58/M"  :"AAC - Certificates_page-0120",
     "GR/AAC/21/62/M"  :"AAC - Certificates_page-0121",
     "GR/AAC/21/73/M"  :"AAC - Certificates_page-0122",
