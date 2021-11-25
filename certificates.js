@@ -102,7 +102,28 @@ const cert = {
     "GR/AAC/21/54/B" : "AAC - Certificates_page-0100",
     "GR/AAC/21/54/C" : "AAC - Certificates_page-0101",
     "GR/AAC/21/54/D" : "AAC - Certificates_page-0102",
-    "GR/AAC/21/54/E" : "AAC - Certificates_page-0103"
+    "GR/AAC/21/54/E" : "AAC - Certificates_page-0103",
+
+    //LOR certificates
+
+    "GRAAC21TR1"  :"AAC - Certificates_page-0104",
+    "GRAAC21TR2"  :"AAC - Certificates_page-0105",
+    "GRAAC21TR3"  :"AAC - Certificates_page-0106",
+    "GRAAC21TR4"  :"AAC - Certificates_page-0107",
+    "GRAAC21TR5"  :"AAC - Certificates_page-0108",
+    "GRAAC21TR6"  :"AAC - Certificates_page-0109",
+    "GRAAC21TR7"  :"AAC - Certificates_page-0110",
+    "GRAAC21TR8"  :"AAC - Certificates_page-0111",
+    "GRAAC21TR9"  :"AAC - Certificates_page-0112",
+    "GRAAC21TR10" :"AAC - Certificates_page-0113",
+    "GRAAC21TR11" :"AAC - Certificates_page-0114",
+    "GRAAC21TR12" :"AAC - Certificates_page-0115",
+    "GRAAC21TR13" :"AAC - Certificates_page-0116",
+    "GRAAC21TR14" :"AAC - Certificates_page-0117",
+    "GRAAC21TR15" :"AAC - Certificates_page-0118",
+    "GRAAC21TR16" :"AAC - Certificates_page-0119",
+
+    //Mentor certificates
 }
 
 
