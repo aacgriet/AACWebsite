@@ -173,8 +173,8 @@ footer {
 .footer-distributed .footer-icons {
   margin-top: 25px;
 }
-
 .footer-distributed .footer-icons a {
+  /* padding: 6.5px !important; */
   display: inline-block;
   width: 35px;
   height: 35px;
